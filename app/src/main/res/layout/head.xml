@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="50"
+    android:background="@drawable/top_bar"
+    android:paddingBottom="7dp"
+    android:paddingLeft="7dp"
+    android:paddingRight="7dp"
+    android:paddingTop="7dp">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="160"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/list_title"
+        android:layout_width="0dp"
+        android:layout_weight="160"
+        android:layout_height="match_parent"
+        android:text="程序員面試寶典"
+        android:textColor="#ffffff"
+        android:textSize="14sp"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="110"
+        android:layout_height="match_parent" />
+    <Button
+        android:id="@+id/setBtn"
+        android:layout_width="0dp"
+        android:layout_weight="45"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_set"
+        />
+
+</LinearLayout>

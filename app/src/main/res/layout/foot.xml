@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="70"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="80"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="300"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_bar"
+        android:orientation="horizontal"
+        android:paddingBottom="7dp"
+        android:paddingRight="7dp"
+        android:paddingTop="7dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="30"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/bottom_btn01"
+            android:layout_width="0dp"
+            android:layout_weight="35"
+            android:layout_height="wrap_content"
+            android:background="@drawable/left_a"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="65"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/bottom_btn02"
+            android:layout_width="0dp"
+            android:layout_weight="35"
+            android:layout_height="wrap_content"
+            android:background="@drawable/middle_a"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="65"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/bottom_btn03"
+            android:layout_width="0dp"
+            android:layout_weight="35"
+            android:layout_height="wrap_content"
+            android:background="@drawable/right_a"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="30"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="80"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
